@@ -13,7 +13,7 @@ The solutions are designed to be:
 ---
 
 ## 📂 Repository Structure
-
+<pre>
 ├── notebooks/
 │ ├── DL_Part1_Tabular_Regression.ipynb
 │ ├── DL_Part2_Text_Classification.ipynb
@@ -36,8 +36,7 @@ The solutions are designed to be:
 ├── requirements.txt
 └── README.md
 
-
----
+</pre>
 
 ## 🧠 Assignment Overview
 
