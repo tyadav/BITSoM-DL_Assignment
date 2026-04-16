@@ -1,6 +1,6 @@
 # Deep Learning Foundations Assignment
 # ============================================================
-# EXPLANATION & THEORY (FOR GRADERS)
+#   EXPLANATION & THEORY (FOR GRADERS)
 # ============================================================
 # 1. Neuron computation:
 #    Each layer computes: y = activation(Wx + b)
@@ -62,7 +62,7 @@ print("Sigmoid(z) =", sigmoid_z)
 # where probabilistic interpretation is required.
 
 # =====================
-# Common Setup
+#  Common Setup
 # =====================
 import os
 import random
@@ -498,5 +498,4 @@ for epoch in range(10):
     print(f"Epoch {epoch}: val accuracy={acc:.4f}")
 
 print("CV Confusion Matrix:\n", confusion_matrix(all_true, all_preds))
-
 print("\nAll baselines trained successfully.")
